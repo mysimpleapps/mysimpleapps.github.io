@@ -1,0 +1,139 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  font-family: "Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-image: -webkit-linear-gradient(top, #92a8d1 20%, #f6cbca 100%);
+  color: #fff;
+  font-family: 'Quicksand'
+}
+
+.navbar {
+  width: 100%;
+  text-align: right;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.navbar  a {
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: solid #92a8d1;
+}
+
+.navbar  a:link a:visited a:active a:focus {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: solid #92a8d1;
+}
+
+.navbar a:hover {
+  border-bottom: solid #fff;
+}
+
+.content {
+  margin-top: 60px;
+}
+
+.content  a:link a:visited a:active a:focus {
+  text-decoration:none;
+  color: #fff;
+  border-bottom: solid red;
+}
+
+.iconbox {
+  display: inline-block;
+  width: 100px;
+  margin: 25px 25px 25px 0px;
+  vertical-align: top;
+}
+
+.iconbox img {
+  display: block;
+  width: 75px;
+  margin: 0 auto;
+}
+
+.iconbox figcaption {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-size: small;
+}
+
+.iconbox a:link, a:visited, a:active, a:focus {
+  display:inline-block;
+  text-decoration: none;
+  opacity: 0.5;
+  color: #fff;
+}
+
+.iconbox a:hover {
+  opacity: 1;
+}
+
+form {
+}
+
+fieldset {
+  width:100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  padding-top: 30px; /* leave a space to position for the labels */
+}
+
+label {
+  display:inline-block;
+  width:31%;
+  vertical-align: top;
+}
+
+input, textarea {
+  width:50%;
+}
+
+.g-recaptcha {
+  margin-left:20%;
+
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.pageHeader {
+  
+ 
+}
+.container {
+  margin: auto;
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
