@@ -27,14 +27,14 @@ body {
   margin: 5px;
 }
 
-.navbar  a {
+.navbar a {
   display: inline-block;
   text-decoration: none;
   border-bottom: solid #92a8d1;
   color: #fff;
 }
 
-.navbar  a:link a:visited a:active a:focus {
+.navbar a:link a:visited a:active a:focus {
   text-decoration: none;
   color: #fff;
   border-bottom: solid #92a8d1;
